@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import Hello from './Hello';
+import Card from './Card';
 import './index.css';
 import 'tachyons';
 
 ReactDOM.render(
-  <Hello greeting={'React' + ' Ninja'} />,
+  <Card />,
   document.getElementById('root')
 );
