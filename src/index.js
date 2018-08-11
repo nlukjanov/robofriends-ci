@@ -5,6 +5,10 @@ import './index.css';
 import 'tachyons';
 
 ReactDOM.render(
-  <Card />,
-  document.getElementById('root')
+  <div>
+    <Card />
+    <Card />
+    <Card />
+  </div>
+  , document.getElementById('root')
 );
