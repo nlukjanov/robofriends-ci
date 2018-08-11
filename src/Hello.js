@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './hello.css';
 
 const Hello = (props) => {
   return (
