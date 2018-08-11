@@ -5,6 +5,6 @@ import Hello from './Hello';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <Hello greeting={'React' + ' Ninja'} />,
   document.getElementById('root')
 );
