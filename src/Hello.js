@@ -3,7 +3,7 @@ import './hello.css';
 
 const Hello = (props) => {
   return (
-    <div>
+    <div className='f1 tc'>
       <h1>Hello World</h1>
       <p>{props.greeting}</p>
     </div>
