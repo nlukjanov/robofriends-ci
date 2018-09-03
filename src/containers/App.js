@@ -4,7 +4,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
-import Header from '../component/Header';
+import Header from '../components/Header';
 import './App.css';
 
 import { setSearchField, requestRobots } from '../actions';
