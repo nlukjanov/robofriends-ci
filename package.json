@@ -2,7 +2,7 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nlukjanob.github.io/robofriends",
+  "homepage": "./",
   "dependencies": {
     "ajv": "^6.5.3",
     "mime": "^2.3.1",
@@ -16,6 +16,8 @@
     "tough-cookie": "^2.4.3"
   },
   "devDependencies": {
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "gh-pages": "^1.2.0",
     "react-scripts": "^1.1.5",
     "sw-precache": "^5.2.1"
@@ -28,6 +30,5 @@
     "gh-pages": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "homepage": "./"
+  }
 }
