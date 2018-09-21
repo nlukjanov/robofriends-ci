@@ -17,41 +17,18 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1
-        className="ma2 f-subheadline lh-title"
->
-        RoboFriends
-</h1>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "RoboFriends",
-        "className": "ma2 f-subheadline lh-title",
-      },
-      "ref": null,
-      "rendered": "RoboFriends",
-      "type": "h1",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <h1
+      "children": Array [
+        <h1
           className="ma2 f-subheadline lh-title"
 >
           RoboFriends
 </h1>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <CounterButton />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -63,6 +40,57 @@ ShallowWrapper {
         "rendered": "RoboFriends",
         "type": "h1",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="ma2 f-subheadline lh-title"
+>
+            RoboFriends
+</h1>,
+          <CounterButton />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "RoboFriends",
+            "className": "ma2 f-subheadline lh-title",
+          },
+          "ref": null,
+          "rendered": "RoboFriends",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],

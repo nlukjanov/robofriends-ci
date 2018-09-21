@@ -19,6 +19,7 @@
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
     "gh-pages": "^1.2.0",
+    "jest": "^23.6.0",
     "react-scripts": "^1.1.5",
     "sw-precache": "^5.2.1"
   },
