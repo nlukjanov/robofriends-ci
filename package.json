@@ -34,6 +34,7 @@
     "build": "react-scripts build",
     "gh-pages": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pre-commit": "pretty-quick --staged"
   }
 }
